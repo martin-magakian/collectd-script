@@ -15,7 +15,7 @@ DAEMON=/opt/collectd/sbin/$NAME
 SCRIPTNAME=/etc/init.d/$NAME
 ARGS=""
 
-CONFIGDIR=/opt/collectd/etc/
+CONFIGDIR=/opt/collectd/etc
 # for backward compatibility
 FALLBACKCONF=/etc/collectd.conf
 
