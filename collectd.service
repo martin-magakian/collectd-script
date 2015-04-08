@@ -5,7 +5,7 @@ After=local-fs.target network.target
 Requires=local-fs.target network.target
 
 [Service]
-ExecStart=/opt/collectd/sbin/collectd -C /opt/collectd/collectd.conf -f
+ExecStart=/opt/collectd/sbin/collectd -C /opt/collectd/etc/collectd.conf -f
 Restart=always
 RestartSec=10
 StandardOutput=syslog
